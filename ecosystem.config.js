@@ -2,10 +2,7 @@ module.exports = {
     apps: [{
         script: 'bin/www',
         watch: '.'
-    }, {
-        script: './service-worker/',
-        watch: ['./service-worker']
-    }],
+    }, ],
 
     deploy: {
         production: {
