@@ -12,7 +12,7 @@ module.exports = {
             repo: 'https://github.com/landry57/pm2.git',
             path: '/home/digitapps/pm2node',
             'pre-deploy-local': '',
-            'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
+            'post-deploy': 'pm2 reload ecosystem.config.js --env production',
             'pre-setup': ''
         }
     }
